@@ -1,8 +1,8 @@
 # Security_identifier_types_recognition
 
 Security identifier types recognition provides regex to recognize all the most common identifier typse i.e. CUSIP, SEDOL, ISIN. 
-In some cases this information is not provided and it need to be retrieve from id itself, by its construcion.
-This code using regular expression matching proper id to it's types.
+In some cases information about security id type is not provided in data and it need to be retrieve from id itself, by its construcion.
+This code use regular expression matching proper id to it's types.
 
 It have been tested on bilions of rows on Unix envirnoment. Works with 95-97% efficiency.
 
